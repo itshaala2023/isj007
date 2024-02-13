@@ -20,3 +20,5 @@ git stash save : it moves files from workspace to stash area
 git stash apply {0} : it copies files from stash to workspace
 git stash pop : it movies latest changes to the workspace
 git stash list  : list down the changes in the stash
+git log : list down the commits done so far
+git diff : it displays the difference from last commit
