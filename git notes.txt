@@ -1,0 +1,22 @@
+1. Download and Install git
+2. singup on github
+3. create a new remote repository
+4. clone the remote repo to the local machine using : git clone https://github.com/itshaala2023/isj007.git
+5. Add new files or folder
+6. check the changes in the local machine : git status
+
+- Local machine has different areas created by git
+	- stash area
+	- workspace
+	- staging area
+	- local repostority
+
+commands:
+git add . : it moves all files from workspace to staging
+git add fileName :- it moves specified file from workspace to staging
+git commit -m "message" : it moves files from staging to local repo
+git push : it pushes file to remote repo
+git stash save : it moves files from workspace to stash area
+git stash apply {0} : it copies files from stash to workspace
+git stash pop : it movies latest changes to the workspace
+git stash list  : list down the changes in the stash
