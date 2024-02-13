@@ -22,3 +22,4 @@ git stash pop : it movies latest changes to the workspace
 git stash list  : list down the changes in the stash
 git log : list down the commits done so far
 git diff : it displays the difference from last commit
+git reset --hard : it resets the changes in workspace from the last commit
